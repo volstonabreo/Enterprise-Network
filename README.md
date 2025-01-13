@@ -9,3 +9,12 @@
 </p>
 <br><br>
 
+## The Network
+
+An Enterprise Data Center of the 192.168.6.32/29 network comprises of a DHCP Server, an Active Directory, and an Apache Web Server, all connected to a virtual switch and the switch is connected to a router. 
+
+An Enterprise Client Network of the 192.168.6.40/29 network comprises of a DHCP Relay and a Windows Client machine, all connected to a virtual switch and the switch is connected to the other end of the router.
+
+ A Linux virtual machine is configured as a router using a mix of static routes and iptables, routing the traffic between the two networks.
+
+Installed essential services like DNS, DHCP, Web on the respective machines, along with Active Directory set up to enforce strict group policies on users. Created a bash script ip.sh to automatically assign a static IP address on boot to the relevant machines.
