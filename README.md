@@ -7,7 +7,6 @@
     <img src="/img/EnterpriseNetworkTopology.svg">
   </a>
 </p>
-<br><br>
 
 ## The Network
 
